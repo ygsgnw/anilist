@@ -1,0 +1,50 @@
+
+.h-heading {
+    color: var(--text-color);
+    margin: 20px 10px 0px 10px;
+    font-size: 1.3rem;
+    padding: 20px 0 0 80px;
+    background-color: var(--first-layer);
+}
+
+.h-carousel {
+    display: flex;
+    background-color: var(--first-layer);
+    padding: 10px 0 10px 0;
+    margin: 0 10px 20px 10px;
+    border-radius: 3px;
+}
+
+.h-scrollable {
+    width: 91%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.h-card-wrapper {
+    /* background-color: black; */
+    padding: 15px;
+    /* margin: 10px; */
+}
+
+/* .card {
+            width: 200px;
+        } */
+
+.h-button svg {
+    fill: white;
+}
+
+.h-button {
+    width: 4.5%;
+    display: flex;
+    place-items: center;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.h-button:hover {
+    opacity: 100%;
+}

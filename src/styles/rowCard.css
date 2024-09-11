@@ -1,0 +1,72 @@
+
+.row-card {
+    width: 320px;
+    height: 90px;
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: transform 0.3s ease;
+    background-color: var(--second-layer);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+}
+
+.row-card:hover {
+    transform: translateX(2%);
+}
+
+.row-card:hover .row-card-title {
+    color: var(--anime-color);
+}
+
+.row-card:hover .row-card-info {
+    filter: brightness(1.2);
+}
+
+.row-card:hover .row-card-image {
+    opacity: 70%;
+}
+
+.row-card-image {
+    object-fit: cover;
+    width: 65px;
+    height: 90px;
+    border-radius: 3px 0 0 3px;
+}
+
+.row-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px 5px 20px;
+}
+
+.row-card-title {
+    font-size: 0.9rem;
+    margin: 5px 0px 5px 0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.row-card-subtitle {
+    margin: 10px 0 5px 0;
+    display: flex;
+    justify-content: start;
+}
+
+.row-card-subtitle-details {
+    margin: 0 7px 0 0;
+    opacity: 50%;
+    font-size: 0.7rem;
+    background-color: var(--third-layer);
+    border-radius: 3px;
+    padding: 1px 5px 1px 5px;
+}
+
+.row-card-airing {
+    background-color: var(--airing-color);
+}

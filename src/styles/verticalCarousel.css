@@ -1,0 +1,52 @@
+
+.v-carousel {
+    background-color: var(--first-layer);
+    padding: 10px 0 0 0;
+    margin: 20px 10px 20px 10px;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+.v-header {
+    display: flex;
+    padding: 5px 10px 5px 20px;
+}
+
+.v-heading {
+    color: var(--text-color);
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.v-scrollable {
+    height: 72vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.v-card-wrapper {
+    /* flex: 0 0 46px; Fixed height for each item */
+    /* height: 50px; */
+    /* border: 1px solid #ddd; */
+    padding: 5px 15px 5px 10px;
+    /* line-height: 50px;  */
+    /* box-sizing: border-box; */
+}
+
+.v-button svg {
+    fill: white;
+    width: 90px;
+}
+
+.v-button {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.v-button:hover {
+    opacity: 100%;
+}

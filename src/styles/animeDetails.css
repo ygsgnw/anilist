@@ -1,0 +1,102 @@
+/* .anime-cover {
+    position: relative;
+} */
+
+.bannerImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    opacity: 50%;
+    z-index: 1;
+    position: relative;
+}
+
+.anime-info {
+    margin: 20px 10px;
+    margin-top: -50px;
+    border-radius: 0.3rem;
+    background-color: var(--first-layer);
+    padding: 0.75rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    z-index: 2;
+    position: relative;
+}
+
+.anime-info img {
+    border-radius: 0.3rem;
+    height: 16rem;
+    width: 12rem;
+    object-fit: cover;
+}
+
+.anime-info-right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.anime-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.anime-title-romaji {
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+    color: var(--anime-color);
+}
+
+.anime-desc {
+    /* max-width: 50rem; */
+    background-color: var(--second-layer);
+    color: rgb(130, 129, 129);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    text-align: left;
+}
+
+.anime-info-details {
+    display: flex;
+    gap: 10rem;
+}
+
+.anime-info-details-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.anime-info-details-list p {
+    margin: 0.5rem 0px;
+    color: rgb(130, 129, 129);
+}
+
+.anime-info-details-list strong {
+    color: white;
+}
+
+.anime-info-genres-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    line-height: 1.1rem;
+    align-items: center;
+}
+
+.anime-info-genres {
+    padding: 0.2rem 0.6rem;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.8rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    height: fit-content;
+    background-color: var(--anime-color);
+}
